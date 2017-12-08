@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="navigation.css" rel="stylesheet" type="text/css">
+<style>
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+body {
+margin:0;
+
+}
+
+
+.brand img {
+	float: right;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+.bc_black {
+margin-top: -80px;
+	background-color: black;
+	height: 525px;
+	display: block;
+	width: 100%;
+}
+h2{
+	text-align: center;
+	color: white;	
+	margin-top:110px;
+font-family: 'Play', sans-serif;
+
+}
+h6 {
+	padding-bottom: 90px;
+	text-align: center;
+	color: white;
+font-family: 'Play', sans-serif;
+}
+
+
+
+.brand td img{
+	 border-radius:50%;
+	 border: 2px solid black;
+    width:150px;
+    height:150px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: -60px;
+  
+}
+
+.brand td img:hover {
+	 margin-bottom: 1px;
+}
+
+
+.brand td a {
+text-decoration: none;
+ display: inline-block;
+text-align:center;
+color: black;
+}
+
+.brand td a:hover{
+color: red;
+}
+
+   hr { 
+    display: block;
+    margin-top: 250px;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset white;
+    border-width: 1px;
+  
+}
+
+.store {
+background-color: black;
+width:100%;
+height:100px;
+}
+
+.store a{
+
+text-decoration:none;  
+list-style-type: none; 
+color: white;
+text-align: center;
+}
+.store h1{
+margin-top: 0px;
+padding-top:25px;
+}
+.footers {
+	background-color: black;
+	height: 200px;
+	width: 100%;
+	margin-top: 200px;
+	color: white;
+	padding-top: 20px;
+}
+
+.footers a{
+text-decoration: underline;
+color: red;
+
+}
+.footers a:hover{
+color: white;
+}
+
+/*Contact Form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    
+}
+
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: 100px;
+    color: white;
+}
+.bgBlack {
+background-color: black;
+width: 100%;
+height: 500px;
+margin-top: 110px;
+}
+.contactName {
+color: red;
+padding-left: 100px;
+padding-top: 20px;
+margin-left: 10px;
+font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="top">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="modelo.html">Beer</a></li>
+  
+  <li><a href="kegs.html">Keg</a></li>
+<li><a href="#news">Beverage</a></li>
+<li style=" float:right;"><a href="cart.html"><img src="img/shoppingCart1.png"></a></li>
+</ul>
+</div>
+
+
+<div class="store">
+<a href="index.html"><h1>FORT GREENE FOOD</h1></a>
+</div>
+
+<div id="storeimg">
+<img height="500px" width="100%" src="img/fortgreen1.png" alt="store">
+</div>
+
+
+<!--<div style="padding:0px;margin-top:0px;">-->
+<div class="bc_black"><br>
+<h2>186 Dekalb Ave, Brooklyn, NY 11205</h2>
+<div style="padding:0px;margin-top:-15px;">
+<h6>Open Store: 6:00am - 1:00am
+<br><br>Delivery Time: 11:00am - 10:00pm<br><br><span style="font-size: 20px;">For Beer "keg" Please book one Week Early.</span><br><br>Call@ : (123)-456-7890
+</h6>
+<h6>
+</h6>
+</div>
+
+
+<div class="brand">
+<table width="100%" >
+<tr>
+
+<td>
+<a href="modelo.html"><img src="img/beer1.jpg" alt="">
+<br />Beer</a>
+</td>
+<td>
+<a href="Heineken.html"><img src="img/beer15.jpg" alt="">
+<br />Beer</a>
+</td>
+<td>
+<a href="SierraNevada.html"><img src="img/beer2.jpg" alt="">
+<br />Beer</a>
+</td>
+<td>
+<a href="Kegs.html"><img src="beer/Samuelkeg.jpg" alt="">
+<br /> Kegs</a>
+</td>
+<td>
+<a href="Ommegang.html"><img src="img/beer5.jpg" alt="">
+<br />Beer </a>
+</td>
+<td>
+<a href="SamuelSmith.html"><img src="img/beer4.jpg" alt="">
+<br />Beer </a>
+</td>
+
+
+</tr>
+</table>
+</div>
+
+<div class="bgBlack">
+<h3 class="contactName">Contact us...</h3>
+<div class="container">
+  <form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+ <label for="lname">Email</label>
+     <input type="text" id="Email" name="Email" placeholder="Your Email..." required>
+
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="Message" placeholder="Write it Down.." style="height:200px" required></textarea>
+
+    <input type="submit" value="Send">
+  </form>
+</div>
+</div>
+<div class="footers">
+Posted by: Viral Patel.<br><br>
+  Contact information: <a href="mailto:patelv794@gmail.com">Patelv794@gmail.com</a>
+  <br><br>&copy; 2016-2017
+  
+</div>
+
+</body>
+</html>

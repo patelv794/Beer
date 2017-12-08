@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Modelo</title>
+<link rel="icon" href="img/beer1.jpg">
+<link rel="stylesheet" href="navigation.css" type="text/css">
+<!--script src="js/shoppingMain.js"></script-->
+<style>
+input[type=text] {
+width: 50px;
+height: 25px;
+margin-left: 275px;
+text-align: center;
+border-radius: 10px;
+margin-bottom: 5px;
+font-size: 15px;
+border-color: black;
+}
+input[type=text]:hover {
+border-color: red;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="left">
+<ul><span class="brandName"><b>Brand</b></span><hr>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search ur brand..." title="Type in a name" >
+<ul id="myUL">
+  <li><a href="modelo.html"><img src="img/beer1.jpg">Modelo</a></li>
+  <li><a href="SierraNevada.html"><img src="img/beer2.jpg">Sierra Nevada</a></li>
+  <li><a href="Corona.html"><img src="img/beer16.jpg">Corona</a></li>
+  <li><a href="Heineken.html"><img src="img/beer15.jpg">Heineken</a></li>
+  <li><a href="Lagunitas.html"><img src="img/beer3.jpg">Lagunitas</a></li>
+  <li><a href="SamuelSmith.html"><img src="img/beer4.jpg">Samuel Smith</a></li>
+  <li><a href="Ommegang.html"><img src="img/beer5.jpg">Ommegang</a></li>
+ 
+<br><br><br><br><br><br><br><br><br><br><br>
+</ul>
+</div>
+
+
+<div class="top">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="modelo.html">Beer</a></li>
+  <li><a href="kegs.html">Keg</a></li>
+<li><a href="#news">Beverage</a></li>
+<li style=" float:right;"><a href="cart.html"><img src="img/shoppingCart1.png"></a></li>
+</ul>
+</div>
+
+<table style="width:100%">
+<tr><th>
+
+
+ <div class="container">
+  <img class="image" src="beer/modelo24oz.jpg"  style="width:100%">
+  <p><span id="modelBeer">Modelo Especial, 25oz</span><br><b><span class="price">$4.54</span></b></p><div class="shoppingCart">
+  
+  <div>
+  <input id="beer1" type="button"
+          value="ADD"
+          onclick="setCookie('Modelo Especial, 25oz','1',4.54,'beer/modelo24oz.jpg',365); setColor('beer1','red');"/>
+          <img src="img/shoppingCart.png"></div>
+
+</div>
+   </div>   
+      
+      
+                                         
+<div class="container">
+  <img src="beer/modelo24ozbottle.jpg" class="image" style="width:100%">
+  <p>Modelo Especial, 24oz bottle<br><b><span class="price">$4.54</span></b><p><div class="shoppingCart">
+  
+  <input id="beer2" type="button" value="ADD" onclick="setCookie('Modelo Especial, 24oz bottle','1',4.54,'beer/modelo24ozbottle.jpg',365); setColor('beer2','red');"/>
+
+
+  <img src="img/shoppingCart.png"></div>
+   <p id="demo"></p>
+</div>
+</tr></th>
+<tr><th>
+<div class="container">
+  <img src="beer/modelo6pk.jpg" class="image" style="width:100%">
+  <p>Modelo Especial, 6pk<br><b><span class="price">$15.99</span></b></p><div class="shoppingCart">
+  
+  <input id="beer3" type="button" value="ADD" onclick="setCookie('Modelo Especial, 6pk','1',15.99,'beer/modelo6pk.jpg',365);setColor('beer3','red')"/><img src="img/shoppingCart.png"></div>
+</div>
+
+<div class="container">
+  <img src="beer/modelo6pkcan.jpg" class="image" style="width:100%">
+  <p>Modelo Especial, 6pk 12oz Can<br><b><span class="price">$13.29</span></b></p><div class="shoppingCart">
+  <input id="beer4" type="button" value="ADD" onclick="setCookie('Modelo Especial, 6pk 12oz Can','1',13.29,'beer/modelo6pkcan.jpg',365);setColor('beer4','red')"/><img src="img/shoppingCart.png"></div>
+</div>
+</tr></th>
+<tr><th>
+
+<div class="container">
+  <img src="beer/negromodelo6pk.jpg" class="image" style="width:100%">
+  <p>Negra Modelo, 6pk<br><b><span class="price">$15.29</span></b></p><div class="shoppingCart">
+  
+<input id="beer5" type="button" value="ADD" onclick="setCookie('Negra Modelo, 6pk','1',15.29,'beer/negromodelo6pk.jpg',365);setColor('beer5','red')"/><img src="img/shoppingCart.png"></div>
+</div>
+
+<div class="container">
+  <img src="beer/modelo12pkcan.jpg" class="image" style="width:100%">
+  <p>Modelo Especial, 12pk <br><b><span class="price">$20.59</span></b></p><div class="shoppingCart"><!--<input id="txtName" type="text" value="1" />-->
+  
+  <input id="beer6" type="button" value="ADD" onclick="setCookie('Modelo Especial, 12pk ','1',20.59,'beer/modelo12pkcan.jpg',365);setColor('beer6','red')"/><img src="img/shoppingCart.png"></div>
+</div>
+</tr></th>
+</table>
+
+
+<script src="search.js">
+</script>
+</body>
+</html>
+
+
+<!--enaranjorivera@bmcc.cuny.edu-->
